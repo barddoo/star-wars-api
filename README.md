@@ -10,6 +10,10 @@
 
 `docker-compose up`
 
+### Run locally
+
+`./gradlew run`
+
 ### Docker image
 
 `./gradlew jibDockerBuild`
