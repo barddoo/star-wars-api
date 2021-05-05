@@ -13,3 +13,7 @@
 ### Docker image
 
 `./gradlew jibDockerBuild`
+
+### ROADMAP
+- [ ] Unit tests
+- [ ] New cache implementation
