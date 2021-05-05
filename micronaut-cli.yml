@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.barddoo
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, gradle, hamcrest, http-client, java, java-application, jax-rs, jib, junit, log4j2, lombok, mongo-reactive, netty-server, openapi, readme, rxjava3, shade, testcontainers, yaml]

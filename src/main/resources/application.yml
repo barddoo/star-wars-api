@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: b2wStarWars
+  server:
+    port: 8080
+  caches:
+    swapi:
+      charset: UTF-8
+mongodb:
+  uri: mongodb://${MONGO_USER:root}:${MONGO_PASS:root}@${MONGO_HOST:localhost}:${MONGO_PORT:27017}
+
+swapi:
+  endpoint: https://swapi.dev/api
